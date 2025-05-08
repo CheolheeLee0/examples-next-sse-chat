@@ -3,9 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "prebuild": "run-s generate migrate",
     "build": "next build",
-    "predev": "run-s generate migrate",
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start",
